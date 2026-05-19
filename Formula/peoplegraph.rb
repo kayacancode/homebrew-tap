@@ -1,8 +1,8 @@
 class Peoplegraph < Formula
-  desc "Query Obsidian Gmail CRM contact graph from a local cache"
+  desc "Query Obsidian Gmail CRM contact graph from a local or remote cache"
   homepage "https://github.com/kayacancode/obsidian-gmail-crm"
-  url "https://github.com/kayacancode/obsidian-gmail-crm/releases/download/peoplegraph-v0.1.0/peoplegraph-0.1.0.tar.gz"
-  sha256 "827d22bd8da8b0e68c7f00885f260d6c42a38c39648f898c97cbe911d7db83a9"
+  url "https://github.com/kayacancode/obsidian-gmail-crm/releases/download/peoplegraph-v0.2.0/peoplegraph-0.2.0.tar.gz"
+  sha256 "07245cd44d9ae40f662229390c431e50307de720202d95c0de2a4a4995a1d9a0"
   license "MIT"
 
   depends_on "rust" => :build
